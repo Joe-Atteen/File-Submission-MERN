@@ -13,11 +13,14 @@ function SignUp() {
     e.preventDefault();
 
     try {
-      const { data } = await axios.put("http://localhost:3001/signup", {
-        username,
-        email,
-        password,
-      });
+      const { data } = await axios.put(
+        "https://submit-ettu.onrender.com/signup",
+        {
+          username,
+          email,
+          password,
+        }
+      );
 
       console.log(data);
 

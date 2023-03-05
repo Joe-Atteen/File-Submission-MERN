@@ -14,7 +14,7 @@ function EditExercise(props) {
 
     try {
       const { data } = await axios.put(
-        "http://localhost:3001/files",
+        "https://submit-ettu.onrender.com/files",
         { topic, screenshot, link, id },
         {
           headers: { Authorization: `Bearer ${token}` },

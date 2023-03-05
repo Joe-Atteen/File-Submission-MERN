@@ -15,9 +15,12 @@ function AllExercises(props) {
       const token = localStorage.getItem("token");
 
       try {
-        const { data } = await axios.get(`http://localhost:3001/files`, {
-          headers: { Authorization: `Bearer ${token}` },
-        });
+        const { data } = await axios.get(
+          `https://submit-ettu.onrender.com/files`,
+          {
+            headers: { Authorization: `Bearer ${token}` },
+          }
+        );
         setFiles(data.data);
         window.localStorage.setItem("data", JSON.stringify(data.data));
 

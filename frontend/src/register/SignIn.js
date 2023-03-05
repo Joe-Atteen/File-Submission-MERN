@@ -12,10 +12,13 @@ function SignIn() {
     e.preventDefault();
 
     try {
-      const { data } = await axios.post("http://localhost:3001/signin", {
-        email,
-        password,
-      });
+      const { data } = await axios.post(
+        "https://submit-ettu.onrender.com/signin",
+        {
+          email,
+          password,
+        }
+      );
       localStorage.setItem("token", data.token);
 
       console.log(data);

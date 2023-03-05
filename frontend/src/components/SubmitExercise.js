@@ -13,7 +13,7 @@ function SubmitExercise(props) {
 
     try {
       const { data } = await axios.post(
-        `http://localhost:3001/files`,
+        `https://submit-ettu.onrender.com/files`,
         { topic, screenshot, link },
         {
           headers: { Authorization: `Bearer ${token}` },

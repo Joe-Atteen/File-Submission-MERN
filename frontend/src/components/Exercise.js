@@ -19,7 +19,7 @@ function Exercise({ fileInfo }) {
 
     try {
       const { data } = await axios.delete(
-        `http://localhost:3001/files/${fileInfo._id}`,
+        `https://submit-ettu.onrender.com/files/${fileInfo._id}`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }

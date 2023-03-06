@@ -96,6 +96,11 @@
   .submitex form,
   .editex form {
     width: 350px;
+    padding: 50px 10px;
+  }
+
+  .submitex form input {
+    width: auto;
   }
 }
 
@@ -110,10 +115,6 @@
 @media screen and (max-width: 360px) {
   .editex form {
     width: 300px;
-  }
-
-  .editex form input {
-    padding: 0 20px;
   }
 }
 

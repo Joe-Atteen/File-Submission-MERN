@@ -38,6 +38,8 @@ function EditExercise(props) {
     setId("");
 
     props.onCancel();
+
+    window.location.reload(false);
   };
 
   function Close() {

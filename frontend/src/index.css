@@ -98,10 +98,6 @@
     width: 350px;
     padding: 50px 10px;
   }
-
-  .submitex form input {
-    width: 330px;
-  }
 }
 
 @media screen and (max-width: 360px) {
@@ -146,6 +142,7 @@
 .submitex form input,
 .editex form input {
   height: 50px;
+  width: 100%;
   margin-bottom: 20px;
   font-size: 16px;
   padding: 0 20px;
@@ -497,6 +494,7 @@
 
 .card #link {
   text-align: center;
+  text-transform: lowercase;
   margin-bottom: 10px;
 }
 .card a {

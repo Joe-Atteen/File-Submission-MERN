@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
 function SignUp() {
@@ -71,6 +71,9 @@ function SignUp() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button onClick={handleSubmit}>Sign Up</button>
+        <Link to="/login" className="link">
+          <span>Login</span> if you already have an account.
+        </Link>
       </form>
     </div>
   );

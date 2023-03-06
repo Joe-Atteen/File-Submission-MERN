@@ -173,6 +173,10 @@
   cursor: pointer;
 }
 
+.signup form button {
+  margin-bottom: 20px;
+}
+
 .signin form button:hover,
 .signup form button:hover,
 .submitex form button:hover,
@@ -185,7 +189,8 @@
   font-size: 16px;
 }
 
-.signin form .link {
+.signin form .link,
+.signup form .link {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -193,7 +198,8 @@
   color: #404040;
 }
 
-.signin form .link span {
+.signin form .link span,
+.signup form .link span {
   color: #fb0b6f;
   text-decoration: none;
   font-weight: 900;

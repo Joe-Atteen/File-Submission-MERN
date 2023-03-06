@@ -72,9 +72,9 @@
 
   .landingpage .image {
     width: 80%;
-    top: 70%;
+    top: 80%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -80%);
   }
 }
 
@@ -91,17 +91,21 @@
     left: 50%;
     transform: translate(-50%, -80%);
   }
+
+  .landingpage .text {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 630px) and (max-height: 800px) {
   .landingpage .image {
-    top: 90%;
+    top: 95%;
     left: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -95%);
   }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 400px) {
   .landingpage .text h1 {
     font-size: 40px;
     line-height: 55px;

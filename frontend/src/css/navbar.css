@@ -55,6 +55,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .navbar {
+    padding: 20px 5%;
+  }
+}
+
 @media screen and (max-width: 310px) {
   .navbar #sign-up {
     padding: 10px 30px;
